@@ -1,26 +1,21 @@
 # Election-Analysis
-##Project Overview
 
-The purpose of this project is to assist a recent Finance graduate (Steve) to analyze the performance of various clean energy stocks between 2017 and 2018. This is being done because Steve's first clients have a undiversified portfolio of just one clean energy stock, DAQO (DQ). As a financial professional, Steve knows that a diversified portfolio is a safer method of investing. So, he needs a way to carry out his analyses of 12 selected clean energy stocks. This project seeks to create a VBA script that can help him achieve this goal. The analysis for this project is based of two worksheets within the green_stocks.xlxs document. Within this document, stock metrics such as opening/closing price, high/low price, and volume are provided for 12 different stocks over the course of 2017 and 2018.
+## Project Overview
 
-##Results
+The purpose of this project is to analyse the election results of an election that took place in Colorado. The aim is to determine which of the counties of interest had the highest voter turnout. This project will also show the vote counts in each county as well as their respective share of the overall vote count. For this analysis, the counties of interest are the Arapahoe, Denver, and Jefferson counties.
 
-###Methods
+## Election Audit Results
+In this election:
+ *a total of 369,711 votes were cast over 3 counties.
+ *Jefferson county had 38,855 votes cast accounting for 10.5% of the total votes.
+ *Denver county had 306,055 votes cast accounting for 82.8% of the total votes.
+ *Arapahoe county had 24,801 votes cast accounting for 6.7% of the total votes.
+ *Denver county had the highest vote count
+ *Charles Casper Stockham received 85,213 votes (23.0% of the total vote)
+ *Dianna DeGette received 272,892 votes (73.8% of the total vote)
+ *Raymon Anthony Doane received 11,606 votes (3.1% of the total vote)
+ 
+ ![Election_results](https://user-images.githubusercontent.com/93050931/142780545-2a40c402-afd7-4923-aabf-c690c59fa7e1.PNG)
 
-Before analyzing the stock data, it is necessary that metrics of interest are identified so that code can be written to uncover insights. Given the data available, the most obvious metrics to find would be the rate of return for each stock for each year as well as the accompanying total volume of stock sold. So, a new sheet was created called "All Stocks Analysis". First, it needed to be determined which year needed to be analyzed. So, an input box was created which would create a variable (yearValue) to be used in code throughout the macro. Column headings for stock ticker, total daily volume, and return were created using the following code:
-
-Cells(3, 1).Value = "Ticker"
-Cells(3, 2).Value = "Total Daily Volume"
-Cells(3, 3).Value = "Return"
-
-Next, a string array, "tickers", was created to hold the ticker name's for each stock and the worksheet of interest was activated using the aforementioned yearValue variable. The row count of our data was also determined for later use in looping over the data.
-
-Dim tickers(11) As String
-tickers(0) = "STOCK1"
-tickers(1) = "STOCK2"....
-
-Worksheets(yearValue).Activate
-RowCount = Cells(Rows.Count, "A").End(xlUp).RowRowCount = Cells(Rows.Count, "A").End(xlUp).Row
-
-A ticker index was intialized at 0 to help refactor our earlier code and arrays of tickerVolumes, tickerStartingPrices, and tickerClosingPrices were created as Long, Single, and Single data types, respectively. A for loop was created to increase the volumes 
-
+ 
+## Summary
