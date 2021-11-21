@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The purpose of this project is to analyse the election results of an election that took place in Colorado, USA. We will be analysing this election by looking at three counties of interest: Arapahoe, Denver, and Jefferson. The aim is to determine the vote count and vote share (as it relates to the total vote count) of each county. Using this data, we will determine which county has the highest voter turnout. This project will also show the vote recieved by each candidate running in the election as well as the share of the total vote each candidate received.
+The purpose of this project is to analyse the election results of an election that took place in Colorado, USA. We will be analysing this election by looking at three counties of interest: Arapahoe, Denver, and Jefferson. The aim is to determine the vote count and vote share (as it relates to the total vote count) of each county. Using this data, we will find out which county has the highest voter turnout. This project will also show the vote recieved by each candidate running in the election as well as the share of the total vote each candidate received.
 
 ## Election Audit Results
 In this election:
