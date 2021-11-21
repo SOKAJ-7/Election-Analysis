@@ -6,14 +6,14 @@ The purpose of this project is to analyse the election results of an election th
 
 ## Election Audit Results
 In this election:
- -a total of 369,711 votes were cast over 3 counties.
- -Jefferson county had 38,855 votes cast accounting for 10.5% of the total votes.
- -Denver county had 306,055 votes cast accounting for 82.8% of the total votes.
- -Arapahoe county had 24,801 votes cast accounting for 6.7% of the total votes.
- -Denver county had the highest vote count
- -Charles Casper Stockham received 85,213 votes (23.0% of the total vote)
- -Dianna DeGette received 272,892 votes (73.8% of the total vote)
- -Raymon Anthony Doane received 11,606 votes (3.1% of the total vote)
+ - a total of 369,711 votes were cast over 3 counties.
+ - Jefferson county had 38,855 votes cast accounting for 10.5% of the total votes.
+ - Denver county had 306,055 votes cast accounting for 82.8% of the total votes.
+ - Arapahoe county had 24,801 votes cast accounting for 6.7% of the total votes.
+ - Denver county had the highest vote count
+ - Charles Casper Stockham received 85,213 votes (23.0% of the total vote)
+ - Dianna DeGette received 272,892 votes (73.8% of the total vote)
+ - Raymon Anthony Doane received 11,606 votes (3.1% of the total vote)
  
  The election is summarized by the figure below which was obtained by writing the output of the code in our project to a text file.
  
